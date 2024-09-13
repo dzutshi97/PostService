@@ -1,0 +1,42 @@
+[
+  {
+    "name": "dzutshi1",
+    "id": "123",
+    "score": 40,
+    "country": "US",
+    "tier": "GOLD",
+    "gender" : "FEMALE"
+  },
+  {
+    "name": "dzutshi2",
+    "id": "123123",
+    "score": 30,
+    "country": "US",
+    "tier": "SILVER",
+    "gender" : "FEMALE"
+  },
+  {
+    "name": "dzutshi3",
+    "id": "123321",
+    "score": 20,
+    "country": "US",
+    "tier": "GOLD",
+    "gender" : "MALE"
+  },
+  {
+    "name": "Cat",
+    "id": "456",
+    "score": 50,
+    "country": "INDIA",
+    "tier": "SILVER",
+    "gender" : "FEMALE"
+  },
+  {
+    "name": "Sheep",
+    "id": "789",
+    "score": 60,
+    "country": "INDIA",
+    "tier": "gold",
+    "gender" : "MALE"
+  }
+]

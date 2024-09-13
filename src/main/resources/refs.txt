@@ -1,0 +1,51 @@
+Google:
+https://developers.google.com/android/reference/com/google/android/gms/games/leaderboard/LeaderboardScore
+https://developers.google.com/games/services/web/api/rest
+
+
+
+
+https://github.com/ranjeetkushwaha/leaderboard-api/blob/master/src/test/java/lb/fantasy/games/leaderboard/LeaderboardApiDataApplicationTests.java
+
+Unity:
+https://services.docs.unity.com/leaderboards-admin/v1/#tag/Leaderboards/operation/getLeaderboardScores
+https://services.docs.unity.com/leaderboards/v1/#tag/Leaderboards
+
+Amazon:
+https://developer.amazon.com/docs/leaderboardsandtournaments/game-api-ref.html#get-leaderboard
+LeaderBoardItem:
+https://developer.amazon.com/docs/leaderboardsandtournaments/game-api-ref.html#getteammatchleaderboardresponse
+
+
+Github repos ref:
+https://github.com/mineata/leaderboard-project/blob/main/src/main/java/com/gamescore/service/UserService.java
+https://github.com/redis-developer/basic-redis-leaderboard-demo-java/blob/master/server/src/main/java/com/redis/basicredisleaderboarddemojava/controller/Api.java#L63
+https://github.com/gihad/threads_leaderboard/blob/master/src/main/java/com/uken/platform/leaderboard/Application.java
+https://github.com/ranjeetkushwaha/leaderboard-api/blob/master/src/main/java/lb/fantasy/games/leaderboard/api/LeaderBoardRepository.java
+
+Mocking:
+https://medium.com/@htyesilyurt/two-useful-strategy-pattern-example-java-spring-boot-65e77f42852c
+
+AND criteria pattern:
+GFG
+https://stackoverflow.com/questions/20972801/combining-strategies-in-a-java-strategy-pattern
+
+Global Exception handler:
+https://github.com/springdoc/springdoc-openapi-demos/blob/master/demo-book-service/src/main/java/org/springdoc/demo/services/book/exception/GlobalControllerExceptionHandler.java
+
+Spring doc:
+https://github.com/springdoc/springdoc-openapi-demos/blob/master/demo-book-service/src/main/java/org/springdoc/demo/services/book/SpringdocApplication.java
+
+Github 2 accounts:
+https://medium.com/@viviennediegoencarnacion/manage-github-and-gitlab-accounts-on-single-machine-with-ssh-keys-on-mac-43fda49b7c8d
+https://code.tutsplus.com/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574t
+https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer/3860139#3860139
+
+TODO:
+Api versioning
+Generate swagger spec
+Concurrency
+>>>Fix and test current code -> Return resp in json format
+>>> Class design and design pattern to use
+Return 400,401,.. error codes etc
+
