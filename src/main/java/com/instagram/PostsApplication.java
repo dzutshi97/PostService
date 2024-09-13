@@ -13,6 +13,8 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
+import reactor.core.publisher.Hooks;
+
 
 
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
@@ -64,6 +66,7 @@ public class PostsApplication {
 	}
 
 	public static void main(String[] args) {
+		Hooks.enableAutomaticContextPropagation(); //needed to generate trace id and span id
 		SpringApplication.run(PostsApplication.class, args);
 	}
 }
